@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "curl http://localhost:3000/test"
+    "test": "curl https://s3-prod-upload.onrender.com/test"
   },
   "dependencies": {
     "aws-sdk": "^2.1490.0",
